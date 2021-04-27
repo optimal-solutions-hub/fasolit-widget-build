@@ -4436,6 +4436,7 @@ var instance = _axios.default.create({
 });
 
 instance.interceptors.request.use(function (config) {
+  debugger;
   var token = (0, _auth.getSessionToken)();
 
   if (token) {
