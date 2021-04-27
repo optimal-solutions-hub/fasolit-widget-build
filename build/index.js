@@ -6080,6 +6080,7 @@ function Form(_ref) {
   };
 
   var handleSubmit = function handleSubmit(event) {
+    debugger;
     event.preventDefault();
     setLoading(true);
     (0, _auth.login)(formState.values).then(function (result) {
